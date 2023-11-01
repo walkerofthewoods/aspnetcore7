@@ -1,4 +1,9 @@
 {
     "gitdoc.enabled": false,
-    "dotnet.defaultSolution": "disable"
+    "dotnet.defaultSolution": "disable",
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#422804",
+        "titleBar.activeBackground": "#5D3806",
+        "titleBar.activeForeground": "#FEF9F3"
+    }
 }
