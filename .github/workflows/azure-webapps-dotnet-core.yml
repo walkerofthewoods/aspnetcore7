@@ -42,7 +42,7 @@ jobs:
       - name: Azure Login
         uses: Azure/login@v1.4.6
         with:
-          creds: ${{ secrets.AZURE_CREDENTIALS }}
+          creds: ${{ secrets.AZ }}
 
       - name: Set up .NET Core
         uses: actions/setup-dotnet@v2
